@@ -6,7 +6,14 @@ const Post = (props) => {
 
     useEffect(() => {
         const getProduto = async () => {
-            await fetch(`../../api/post/${id}`)
+            await fetch(`https://api-frontmaster.vercel.app/pages/post/${id}`,{
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json',
+                    'Access-Control-Allow-Origin': '*'
+                }
+            })
                 .then((response) => response.json())
                 .then((responseJson) => {
                 setData(responseJson.produto);
