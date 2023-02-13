@@ -28,19 +28,35 @@ const Content = styled.p`
 `;
 
 const Home = () => {
-  const [post, setPost] = useState({});
+  const [data, setData] = useState([]);
+
+  const getProdutos = async () => {
+    fetch("https://github.com/Andre-Rodrigues-Dev-Web/frontmaster/blob/main/api/post.json", {
+        method: 'GET',
+        headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+        }
+    })
+      .then((response) => response.json())
+      .then((responseJson) => (
+        //console.log(responseJson),
+        setData(responseJson.records)
+      ));
+  }
 
   useEffect(() => {
-    fetch('../../api/post.json')
-      .then(res => res.json())
-      .then(data => setPost(data));
-  }, []);
-
+    getProdutos();
+  }, [])
   return (
+    <>
+    {Object.values(data).map(post => (
     <CardContainer>
       <Title>{post.titutlo}</Title>
       <Content>{post.texto}</Content>
     </CardContainer>
+    ))}
+   </> 
   );
 };
 
