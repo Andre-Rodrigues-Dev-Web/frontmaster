@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from 'react';
 
-const Post = () => {
+const Post = (props) => {
     const [data, setData] = useState([]);
-
-    const [id, setId] = useState(props.match.params.id);
+    const [id] = useState(props.match.params.id);
 
     useEffect(() => {
         const getProduto = async () => {
-            await fetch("../../api/post/" + id)
+            await fetch(`../../api/post/${id}`)
                 .then((response) => response.json())
                 .then((responseJson) => {
                 setData(responseJson.produto);
@@ -16,7 +15,9 @@ const Post = () => {
     getProduto();
   }, [id]);
   return (
-    <div>index</div>
+    <div>
+        {data.id}
+    </div>
   )
 }
 

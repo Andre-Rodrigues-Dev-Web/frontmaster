@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "titulo": "Notícia 1",
+        "data": "2022-12-01",
+        "categoria": "Esportes",
+        "imagem": "https://images.com/noticia1.jpg",
+        "texto": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+        "id": 2,
+        "titulo": "Notícia 2",
+        "data": "2022-12-02",
+        "categoria": "Política",
+        "imagem": "https://images.com/noticia2.jpg",
+        "texto": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+    },
+    {
+        "id": 3,
+        "titulo": "Notícia 3",
+        "data": "2022-12-03",
+        "categoria": "Tecnologia",
+        "imagem": "https://images.com/noticia3.jpg",
+        "texto": "It has survived not only five centuries, but also the leap into electronic typesetting."
+    },
+    {
+        "id": 4,
+        "titulo": "Notícia 4",
+        "data": "2022-12-04",
+        "categoria": "Entretenimento",
+        "imagem": "https://images.com/noticia4.jpg",
+        "texto": "Remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages."
+    },
+    {
+        "id": 5,
+        "titulo": "Notícia 5",
+        "data": "2022-12-05",
+        "categoria": "Economia",
+        "imagem": "https://images.com/noticia5.jpg",
+        "texto": "And more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+        "id": 6,
+        "titulo": "Notícia 6",
+        "data": "2022-12-06",
+        "categoria": "Ciência",
+        "imagem": "https://images.com/noticia6.jpg",
+        "texto": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+        "id": 7,
+        "titulo": "Notícia 7",
+        "data": "2022-12-07",
+        "categoria": "Saúde",
+        "imagem": "https://images.com/noticia7.jpg",
+        "texto": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+    },
+    {
+        "id": 8,
+        "titulo": "Notícia 8",
+        "data": "2022-12-08",
+        "categoria": "Meio Ambiente",
+        "imagem": "https://images.com/noticia8.jpg",
+        "texto": "It has survived not only five centuries, but also the leap into electronic typesetting."
+    },
+    {
+        "id": 9,
+        "titulo": "Notícia 9",
+        "data": "2022-12-09",
+        "categoria": "Esportes",
+        "imagem": "https://images.com/noticia9.jpg",
+        "texto": "Remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages."
+    },
+    {
+        "id": 10,
+        "titulo": "Notícia 10",
+        "data": "2022-12-10",
+        "categoria": "Política",
+        "imagem": "https://images.com/noticia10.jpg",
+        "texto": "And more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+        "id": 11,
+        "titulo": "Notícia 11",
+        "data": "2022-12-11",
+        "categoria": "Tecnologia",
+        "imagem": "https://images.com/noticia11.jpg",
+        "texto": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+        "id": 12,
+        "titulo": "Notícia 12",
+        "data": "2022-12-12",
+        "categoria": "Entretenimento",
+        "imagem": "https://images.com/noticia12.jpg",
+        "texto": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+    },
+    {
+        "id": 13,
+        "titulo": "Notícia 13",
+        "data": "2022-12-13",
+        "categoria": "Economia",
+        "imagem": "https://images.com/noticia13.jpg",
+        "texto": "It has survived not only five centuries, but also the leap into electronic typesetting."
+    },
+    {
+        "id": 14,
+        "titulo": "Notícia 14",
+        "data": "2022-12-14",
+        "categoria": "Ciência",
+        "imagem": "https://images.com/noticia14.jpg",
+        "texto": "Remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages."
+    }
+]
